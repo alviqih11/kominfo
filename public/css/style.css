@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@700&family=Poppins&display=swap');
+
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .form-signin input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .form-signin input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+
+  .form-registration input {
+    border-radius: 0; 
+    margin-bottom: -1px;     
+  }
+
+  .navbarDflex {
+    display:flex;
+    justify-content:space-between;
+  }
+
+  .shadow-hover:hover {
+    box-shadow: 2px 2px 2px rgba(0,0,0,0.8);
+  }
+
+  /* footer */
+
+  .social-media {
+    text-align: right; 
+  }
+  .social-media  li {
+    display: inline-block;
+    margin-right: 10px;
+  }
+  .social-media li a {
+    color: #aaa;
+  }
+  @media screen and (max-width: 980px) {
+    .copy-right, .social-media  {
+      text-align: center;
+    }
+  }
+  @media screen and (max-width: 980px) {
+   #footer .social-media ul {
+      width: 100%;
+    }
+  }
